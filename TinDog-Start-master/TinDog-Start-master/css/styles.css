@@ -1,0 +1,242 @@
+#title{
+    background-color: #fbeeff;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 50px;
+    font-size: 2.5rem;
+    
+}
+.nav-item{
+    font-weight: bold;
+}
+
+.first{
+    font-family: 'Montserrat-black';
+    font-size: 3.5rem;
+    line-height: 1.2;
+    margin-top: 100px;
+}
+
+h1{
+    font-family: 'Montserrat-black';
+    font-size: 3.5rem;
+    line-height: 1.2;
+}
+
+h3{
+    font-family: 'Montserrat-black';
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+h2{
+    font-family: 'Montserrat-black';
+    line-height: 1.2;
+    font-weight: bolder;
+    color: #5e1575;
+}
+
+.container-fluid{
+    padding: 3% 9%;
+    margin: auto;
+}
+
+body{
+    font-family: "montserrat";
+}
+
+/* buttons */
+
+#button1{
+    margin: 50px 10px;
+    background-color: #5e1575 !important;
+}
+
+#button2{
+    margin: 50px 10px;
+}
+
+#button3{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-left: 35px;
+    background-color: #5e1575 !important;
+    text-align: center;
+}
+
+#button4{
+    margin-left: 35px;
+}
+
+#button6{
+    background-color: #5e1575 !important
+}
+
+#button8{
+    background-color: #5e1575 !important;
+    margin: 30px 10px 10px;
+}
+
+#button7{
+    margin: 30px 10px 10px;
+}
+
+#naya-button{
+    padding: 1% 25%;
+}
+
+.btn-outline-dark:hover {
+    background-color: #5e1575;
+    border-color: #5e1575;
+}
+
+
+/* features */
+
+#features{
+    padding: 5% 8% 4% 8%;
+    text-align: center;
+}
+
+.features-list{
+    font-family: "montserrat-bold";
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.features-description{
+    font-family: "montserrat";
+    color: #8f8f8f;
+     
+}
+
+#create{
+    padding: 3%;
+}
+
+/* testimonial section */
+
+#testimonials{
+  text-align: center;
+}
+
+.games{
+    padding: 3%;
+    font-family: 'Montserrat-black';
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-weight: bold;
+    color: #5e1575;
+}
+
+#press{
+    background-color: #fbeeff;
+    text-align: center;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 50px 20px 50px;
+}
+
+.carousel-item{
+    padding: 4% 15% 1%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+ color: #5e1575 !important;
+}
+
+/* Pricing section */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+.card-header{
+    background-color: #fbeeff;
+}
+
+#cta{
+    padding: 3%;
+    text-align: center;
+    background-color: #fbeeff;
+}
+
+#footer{
+    text-align: center;
+    background-color: #fbeeff;
+    padding-bottom: 1%;
+    color: #8f8f8f;
+}
+
+@media (max-width: 1028px) {
+    #title{
+        text-align: center;
+    }
+
+    .pehlaimage{
+        height: 400px;
+        width: 500px;
+    }
+
+    .dusraimage{
+        height: 400px;
+        width: 500px;
+    }
+
+    .games{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    #title{
+        text-align: center;
+    }
+
+    .pehlaimage{
+        height: 250px;
+        width: 350px;
+    }
+
+    .dusraimage{
+        height: 150px;
+        width: 250px;
+    }
+
+    .games{
+        font-size: 1rem;
+    }
+
+    #button5{
+        font-size: 1rem;
+    }
+
+    #button6{
+        font-size: 1rem;
+    }
+
+    #button3{
+        font-size: 0.805rem;
+    }
+
+    #button4{
+        font-size: 0.83rem;
+    }
+
+    .first{
+        font-size: 3.3rem;
+    }
+}
